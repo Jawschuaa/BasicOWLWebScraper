@@ -7,4 +7,4 @@ alias = soup.findAll("div", attrs={"class": "alias"})
 name = soup.findAll("div", attrs={"class": "name"})
 
 for a, n in zip(alias,name):
-    print(a.text + "-" + n.text)
+    print(a.text + n.text)
